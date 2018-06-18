@@ -1,12 +1,12 @@
 builds:
   - main: main.go
-  - binary: release
-  goos:
-    - windows
-    - darwin
-    - linux
-  goarch:
-    - amd64
+    binary: release
+    goos:
+      - windows
+      - darwin
+      - linux
+    goarch:
+      - amd64
 archive:
   format: tar.gz
   replacements:
