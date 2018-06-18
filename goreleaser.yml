@@ -1,0 +1,9 @@
+repo: scottmcclary1/releaser
+binary_name: release
+brew:
+  repo: goreleaser/homebrew-formulae
+build:
+  oses:
+    - windows
+    - darwin
+    - linux
