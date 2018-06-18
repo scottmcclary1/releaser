@@ -1,5 +1,7 @@
 builds:
   - main: main.go
+    flags:
+      - -v
     binary: pi
     goos:
       - windows
