@@ -1,0 +1,2 @@
+# releaser
+GoReleaser Hello World
