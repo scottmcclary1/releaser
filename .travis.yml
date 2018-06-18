@@ -1,5 +1,7 @@
 language: go
 go:
   - "1.10"
+script:
+  - go build -o release
 after_success:
   test -n "$TRAVIS_TAG" && curl -s https://raw.githubusercontent.com/goreleaser/get/master/latest | bash
