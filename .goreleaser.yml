@@ -11,4 +11,4 @@ archive:
   format: tar.gz
   replacements:
     amd64: 64-bit
-    darwnin: macOS
+    darwin: macOS
